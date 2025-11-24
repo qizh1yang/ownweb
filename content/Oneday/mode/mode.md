@@ -2,7 +2,7 @@
 title: "{{title}}"
 date: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 slug: "{{date:YYYYMMDD}}-{{time:HHmmssZ}}-{{name-to-slug}}"
-published: true 
+published: false 
 ---
 
 # **{{title}}**
