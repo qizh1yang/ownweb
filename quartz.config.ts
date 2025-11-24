@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "关于我",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,6 +16,14 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
+	pages: {
+		root: "Welcome",
+        nav: [
+            { name: "首页", route: "/" }, 
+            { name: "关于我", route: "/about" }, 
+            { name: "标签", route: "/tags" }, 
+        ],
+    },
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
