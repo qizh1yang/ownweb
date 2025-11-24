@@ -8,7 +8,8 @@ title: "{{title}}"
 date: "{{date:YYYY-MM-DD}}T{{time:HH:mm:ss}}"
 
 # 3. 英文链接 (【关键】避免中文路径导致 404)
-slug: "{{date:YYYYMMDD}}-{{name-to-slug}}"
+slug: "{{date:YYYYMMDD}}-{{time:HHmmssZ}}-{{name-to-slug}}"
+
 
 # 4. 发布状态 (确保文章不会被隐藏)
 published: true 
